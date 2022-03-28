@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.rov{
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+
+}
+
+.col-4{
+    flex: 30%;
+    max-width: 30%;
+}
+
+.col-4 .a{
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.col-lg-4{
+    flex: 40%;
+    max-width: 40%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.col--4{
+    flex: 30%;
+    max-width: 30%;
+}
+
+.col--4 .b{
+    font-size: 25px;
+    padding-left: 80px;
+    /* color: beige; */
+}
+
+.round{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    margin-top: -4px;
+    text-align: center;
+    color: white;
+    margin-left: 65px;
+}
+
+.item{
+    width: 80%;
+    height: 30px;
+    margin: 15px auto;
+    background-color: #ddd;
+    color: rgb(102, 102, 102);
+    align-items:baseline;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.rows{
+    width: 80%;
+    margin: 50px auto;
+    border-bottom: 2px solid rgb(214, 201, 201);
+}
+
+.box{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    
+}
+
+.img{
+    flex: 25%;
+    max-width: 25%;
+    /* height: 230px; */
+    background-image: url('./../img/nike.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img1{
+    flex: 25%;
+    max-width: 25%;
+    /* height: 230px; */
+    background-image: url('./../img/women\ shopping.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+
+}
+
+.img2{
+    flex: 25%;
+    max-width: 25%;
+    /* height: 230px; */
+    background-image: url('./../img/gucchi.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.text{
+    flex: 25%;
+    max-width: 25%;
+    padding-left: 30px;
+
+}
+
+.button{
+    flex: 25%;
+    max-width: 25%;
+}
+
+.number{
+    flex: 25%;
+    max-width: 25%;
+}
+
+.btn{
+   width: 30px;
+   height: 30px; 
+   background-image: url('./../img/arrow.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 20px;
+   border: none;
+}
+
+.raqam{
+    display: inline-block;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.rowbody{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bir{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.year{
+    font-size: 30px;
+    color: rgb(102, 102, 102);
+}
+
+.add{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #393939;
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.footer{
+    width: 80%;
+    margin: 30px auto;
+    background-color: #F7F7F7;
+}
+
+.foot{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.subt{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+
+}
+
+.total{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(102, 102, 102);
+    margin-left: 545px;
+}
+
+.qator{
+    padding-bottom: 10px;
+}
+
+
+.oxiri{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+    text-align: center;
+
+}
+.footbut{
+    width: 300px;
+    height: 60px;
+    background-color: #393939;
+    border-radius: 30px;
+    color: white;
+    font-size: 30px;
+    /* padding: 20px; */
+}
+
+
+
+
+
+
